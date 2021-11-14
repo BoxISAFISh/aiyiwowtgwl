@@ -2,7 +2,8 @@
 
 ## Making It Work
 Click the bookmark.<br/>
-or paste code from [code.js](https://github.com/DarkSnakeGang/aiyiwowtgwl/blob/main/code.js) in console then do ```
+or paste code from [code.js](https://github.com/DarkSnakeGang/aiyiwowtgwl/blob/main/code.js) in console then do 
+```
 window.snake.invisible();
 ```
 
