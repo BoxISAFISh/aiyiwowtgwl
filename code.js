@@ -3,6 +3,8 @@ if(window.snake)snake.invisible = function() {
 
   const scripts = document.getElementsByTagName('script');
   for(let script of scripts) {
+    if(script.src === '' || script.src.includes('apis.google.com'))continue;
+
     const req = new XMLHttpRequest();
     req.open('GET', script.src);
     req.onload = function() {
