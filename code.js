@@ -10,7 +10,7 @@ if(window.snake)snake.invisible = function() {
     req.onload = function() {
       const code = this.responseText;
 
-      if(code.indexOf('#A2') === -1)
+      if(code.indexOf('trophy') === -1)
         return;
 
       eval(
